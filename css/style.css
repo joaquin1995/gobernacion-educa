@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    /* height: 100vh; */
+  
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  
+  /* hedar-principal */
+
+  .superior {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 20% 30% 50%;
+        gap: .1rem;
+  }
+    
+  .cuidad  p {
+      margin: 0
+  }
+  .cuidad {
+      grid-row: 1 / 2;
+      grid-column: 1 / 2;
+      background-color: rgba(24,27,36,1);
+  }
+
+   .correo{
+    /* grid-row: 2 / 3; */
+    grid-column: 2 / 4;
+    background-color: rgba(24,27,36,1);
+  }
+
+  .redes-sociales{
+    grid-column: 4 / 5;
+    background-color: rgba(24,27,36,1);
+  }
